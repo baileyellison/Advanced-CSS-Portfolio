@@ -101,7 +101,7 @@ h3 {
 }
 
 /*Hover Feature/Pseudoclass*/
-.BasicHTMLPage:hover {
+.BasicHTMLPage:hover, .CSSandHTML:hover, .WebAPI:hover {
     -webkit-filter: brightness(.5);
     filter: brightness(.5);
 }
@@ -137,4 +137,16 @@ h3 {
     margin: 10px 5px 10px 75px;
     background-color: darkcyan;
 }
-
+.ContactMe {
+    color: darkcyan;
+    font-size: 20px;
+    display: block;
+    margin: 100px 0px 45px 10px;
+    text-align: center;
+}
+.Methods {
+    color:black;
+    display: flex;
+    justify-content:space-around;
+    font-size: 20px;
+}

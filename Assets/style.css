@@ -1,9 +1,11 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
 /*Navigation Bar, Header and Hero */
 .header {
-    background-color: slategray;
+    background-color: #3b3b3b;
     color: white;
 }
 .NavBar {
@@ -12,7 +14,8 @@
     justify-content: flex-end;
     align-items:first baseline;
 }
-h3 {
+h4 {
+    font-size: 20px;
     padding:5px 5px;
     margin: 10px 10px;
     text-decoration: underline 3px;
@@ -23,7 +26,7 @@ h1 {
     text-align: left;
     display: inline;
     margin: 75px 2px 5px 5px;
-    padding: 0px 10px 5px 40px;
+    padding: 0px 10px 5px 50px;
 }
 
 h2 {
@@ -31,7 +34,7 @@ h2 {
     text-align: left;
     display: inline;
     margin: 20px 5px 40px 5px;
-    padding: 0px 10px 5px 68px;
+    padding: 0px 10px 5px 78px;
     background-color: darkcyan;
 }
 
@@ -43,7 +46,7 @@ h2 {
 }
 
 /*About Me Section*/
-.card {
+#AboutMeCard {
     border-radius: 5px;
     padding: 20px 20px;
     margin-top: 15px;
@@ -52,10 +55,10 @@ h2 {
     column-rule-style: solid grey;
     column-span: all;
 }
-.AboutMe {
+h3 {
     font-size: 48px;
     text-decoration: solid;
-    margin: 75px 2px 10px 50px;
+    margin: 100px 2px 10px 50px;
     display: flex;
     align-items: center;
     color: white;
@@ -67,10 +70,71 @@ h2 {
     border-radius: 1000px;
     display: flex;
     align-items: center;
-    margin: 5px 5px 5px -180px;
+    margin: 5px 5px 5px -350px;
 }
 
 .pAboutMe {
     padding: 30px 10px;
-    margin: 5px 5px 5px -280px;
+    margin: 5px 5px 5px -550px;
 }
+
+/*Work Section*/
+#WorkCard {
+    background-color: #3b3b3b;
+    border-radius: 5px;
+    padding: 20px 20px;
+    margin-top: 50px;
+    column-count: 2;
+    column-span: all;
+    text-align: center;
+    display: flex;
+}
+
+
+ .BasicHTMLPage {
+    flex:50%;
+    flex-grow: 2;
+    display: block;
+    border: solid darkcyan 5px;
+    margin: 10px 5px 10px 75px;
+    background-color: darkcyan;
+}
+
+/*Hover Feature/Pseudoclass*/
+.BasicHTMLPage:hover {
+    -webkit-filter: brightness(.5);
+    filter: brightness(.5);
+}
+.BasicHTMLp, .JSCodeRefractor, .WebAPIp {
+    position: absolute;
+    bottom: -595px;
+    right: 927px;
+    background-color: darkcyan;
+    color: white;
+    font-size: 32px;
+    padding: 20px 10px 40px;
+}
+.subtitles, .subtitles1, .subtitles2 {
+    position: absolute;
+    bottom: -585px;
+    right: 1115px;
+    background-color: darkcyan;
+    color: white;
+    font-size: 20px;
+}
+.secondrow {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 200px;
+}
+
+.CSSandHTML, .WebAPI {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 25%;
+    width:75%;
+    border: solid darkcyan 5px;
+    margin: 10px 5px 10px 75px;
+    background-color: darkcyan;
+}
+

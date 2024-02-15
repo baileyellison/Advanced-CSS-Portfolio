@@ -39,15 +39,24 @@ h2 {
     background-image: linear-gradient(to right, darkcyan, white);
     column-count: 2;
     column-span: all;
-    column-rule: gray solid 5px;
 }
 .AboutMe {
-    text-align: center;
     font-size: 28px;
-    margin: 2px
+    margin: 2px 2px 10px 175px;
+    display: flex;
+    align-items: center;
+    color: white;
 }
+
 .headshot {
     height: 350px;
     width:300px;
     border-radius: 1000px;
+    display: flex;
+    align-items: center;
+    margin: 5px 5px 5px 100px;
+}
+
+.pAboutMe {
+    padding: 30px;
 }

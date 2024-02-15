@@ -1,0 +1,76 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Navigation Bar, Header and Hero */
+.header {
+    background-color: slategray;
+    color: white;
+}
+.NavBar {
+    color:white;
+    display: flex;
+    justify-content: flex-end;
+    align-items:first baseline;
+}
+h3 {
+    padding:5px 5px;
+    margin: 10px 10px;
+    text-decoration: underline 3px;
+
+}
+h1 {
+    background-color: darkcyan;
+    text-align: left;
+    display: inline;
+    margin: 75px 2px 5px 5px;
+    padding: 0px 10px 5px 40px;
+}
+
+h2 {
+    font-size: 18px;
+    text-align: left;
+    display: inline;
+    margin: 20px 5px 40px 5px;
+    padding: 0px 10px 5px 68px;
+    background-color: darkcyan;
+}
+
+
+.hero-image {
+   margin-top: 0px; 
+   position: relative;
+   
+}
+
+/*About Me Section*/
+.card {
+    border-radius: 5px;
+    padding: 20px 20px;
+    margin-top: 15px;
+    background-image: linear-gradient(to right, darkcyan, white);
+    column-count: 3;
+    column-rule-style: solid grey;
+    column-span: all;
+}
+.AboutMe {
+    font-size: 48px;
+    text-decoration: solid;
+    margin: 75px 2px 10px 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.headshot {
+    height: 350px;
+    width:300px;
+    border-radius: 1000px;
+    display: flex;
+    align-items: center;
+    margin: 5px 5px 5px -180px;
+}
+
+.pAboutMe {
+    padding: 30px 10px;
+    margin: 5px 5px 5px -280px;
+}

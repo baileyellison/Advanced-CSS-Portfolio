@@ -1,4 +1,4 @@
-# Advanced CSS Portfolio>
+#  Bailey's Advanced CSS Portfolio
 
 ## Adding a Working Portfolio to GitHub
 

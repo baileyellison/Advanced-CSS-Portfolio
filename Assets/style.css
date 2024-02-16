@@ -20,6 +20,7 @@ h4 {
     padding:5px 5px;
     margin: 10px 10px;
     text-decoration: underline 3px;
+    color:white;
 
 }
 h1 {
@@ -135,7 +136,7 @@ h3 {
     color: white;
     font-size: 20px;
 }
-
+/*Second Row of Pictures*/
 .secondrow {
     display:flex;
     justify-content: center;
@@ -200,4 +201,4 @@ h3 {
 { /*laptops, and desktops */ }
 
 @media (max-width <= 1250px) 
-{ /* hi-res laptops and desktops */ }
+{ /* hi-res laptops and desktops */}
